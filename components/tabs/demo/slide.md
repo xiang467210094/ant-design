@@ -32,7 +32,7 @@ class SlidingTabsDemo extends React.Component {
     const { mode } = this.state;
     return (
       <div>
-        <Radio.Group onChange={this.handleModeChange} value={mode} style={{ marginBottom: 8 }}>
+        <Radio.Group onChange={this.handleModeChange} value={mode} style={{ marginBottom: 5 }}>
           <Radio.Button value="top">Horizontal</Radio.Button>
           <Radio.Button value="left">Vertical</Radio.Button>
         </Radio.Group>
